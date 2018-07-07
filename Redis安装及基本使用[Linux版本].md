@@ -126,3 +126,5 @@ SHUTDOWN
 修改后保存。重启系统，按照之前方法重新登录测试后运行`SHUTDOWN`命令，此时错误排除。
 
 `注意点: redis关闭前会将内存中的数据写入到磁盘中，如果权限不够则没法关闭也就是shutdown。所以才会出现我之前error的情况。`
+
+> 当redis连接着时，可以通过redis自带的`redis-benchmark`命令测试reids的性能。
