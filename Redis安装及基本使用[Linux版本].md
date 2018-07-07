@@ -128,3 +128,5 @@ SHUTDOWN
 `注意点: redis关闭前会将内存中的数据写入到磁盘中，如果权限不够则没法关闭也就是shutdown。所以才会出现我之前error的情况。`
 
 > 当redis连接着时，可以通过redis自带的`redis-benchmark`命令测试reids的性能。
+
+`重点重点: 默认端口6379`
