@@ -31,6 +31,8 @@ rdb 保存的文件格式:**`rdb`**。默认文件名为:`dump.rdb`。
 - dir
   - 表示存储rdb文件的位置，默认存储在启动redis命令的目录下。
 
+`可以通过redis-check-dump目录修改损坏的dump.rdb文件。`
+
 
 
  
